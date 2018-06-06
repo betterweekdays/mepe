@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*what i have added
+section#contact .description
+h4*/
+
+/*whats originally in the theme*/
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -48,9 +53,15 @@ a.active {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    color: #fed136;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -755,6 +766,10 @@ section#contact {
 
 section#contact .section-heading {
     color: #fff;
+}
+
+section#contact .description {
+    color: #fed136;
 }
 
 section#contact .form-group {
