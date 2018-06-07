@@ -6,7 +6,8 @@
 
 /*what i have added
 section#contact .description
-h4*/
+h4
+.overview-pic img */
 
 /*whats originally in the theme*/
 body {
@@ -381,6 +382,11 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.overview-pic img {
+    margin: 0 auto;
+    border: 7px solid #fff;
 }
 
 #portfolio .portfolio-item {
