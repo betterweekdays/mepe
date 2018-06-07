@@ -6,8 +6,10 @@
 
 /*what i have added
 section#contact .description
-h4
-.overview-pic img */
+h3
+.overview-pic img
+p.large
+p.super-large */
 
 /*whats originally in the theme*/
 body {
@@ -20,7 +22,17 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #00a8ff;
+}
+
+.text-colored {
+    color: #00a8ff;
+}
+
+.text-special-notice {
+    color: #00a8ff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 
 p {
@@ -28,8 +40,16 @@ p {
     line-height: 1.75;
 }
 
-p.large {
+p.middle {
     font-size: 16px;
+}
+
+p.large {
+    font-size: 18px;
+}
+
+p.super-large {
+    font-size: 24px;
 }
 
 a,
@@ -41,7 +61,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #00a8ff;
 }
 
 a:hover,
@@ -53,7 +73,7 @@ a.active {
 
 h1,
 h2,
-h3,
+h4,
 h5,
 h6 {
     text-transform: uppercase;
@@ -61,8 +81,8 @@ h6 {
     font-weight: 700;
 }
 
-h4 {
-    color: #fed136;
+h3 {
+    color: #00a8ff;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -81,12 +101,12 @@ h4 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #00a8ff;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #00a8ff;
 }
 
 .btn-primary:hover,
@@ -120,25 +140,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00a8ff;
+    background-color: #00a8ff;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #00a8ff;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #00a8ff;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #00a8ff;
 }
 
 .btn-xl:hover,
@@ -172,12 +192,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00a8ff;
+    background-color: #00a8ff;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #00a8ff;
     background-color: #fff;
 }
 
@@ -188,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #00a8ff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -225,8 +245,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00a8ff;
+    background-color: #00a8ff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -235,7 +255,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #00a8ff;
 }
 
 .navbar-default .nav li a {
@@ -249,13 +269,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #00a8ff;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #00a8ff;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -536,7 +556,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #00a8ff;
 }
 
 .timeline>li .timeline-image h4 {
@@ -775,7 +795,9 @@ section#contact .section-heading {
 }
 
 section#contact .description {
-    color: #fed136;
+    color: #00a8ff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 
 section#contact .form-group {
@@ -796,7 +818,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #00a8ff;
     box-shadow: none;
 }
 
@@ -879,7 +901,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #00a8ff;
 }
 
 .btn:focus,
@@ -967,12 +989,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #00a8ff;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #00a8ff;
 }
 
 img::selection {
@@ -984,5 +1006,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #00a8ff;
 }
