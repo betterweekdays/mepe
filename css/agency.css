@@ -9,7 +9,8 @@ section#contact .description
 h3
 .overview-pic img
 p.large
-p.super-large */
+p.super-large
+header .intro-text .intro-heading (both)*/
 
 /*whats originally in the theme*/
 body {
@@ -345,8 +346,8 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     line-height: 50px;
 }
 
@@ -368,8 +369,8 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
+        font-size: 50px;
+        font-weight: 600;
         line-height: 75px;
     }
 }
