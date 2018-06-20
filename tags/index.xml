@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MEPE Fellowship Program</title>
-    <link>https://betterweekdays.github.io/mepe/tags/</link>
+    <link>https://mepe.thewhether.com/tags/</link>
     <description>Recent content in Tags on MEPE Fellowship Program</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://betterweekdays.github.io/mepe/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mepe.thewhether.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

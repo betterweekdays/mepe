@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://betterweekdays.github.io/mepe/categories/</loc>
+    <loc>https://mepe.thewhether.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://betterweekdays.github.io/mepe/</loc>
+    <loc>https://mepe.thewhether.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://betterweekdays.github.io/mepe/tags/</loc>
+    <loc>https://mepe.thewhether.com/tags/</loc>
     <priority>0</priority>
   </url>
   
